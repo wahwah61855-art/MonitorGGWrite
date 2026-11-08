@@ -16,3 +16,4 @@ target_compile_options(HookWrite PRIVATE
 target_link_options(HookWrite PRIVATE
     -static-libstdc++
 )
+target_link_libraries(HookWrite log)
